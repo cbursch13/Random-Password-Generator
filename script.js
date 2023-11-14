@@ -10,11 +10,11 @@ function generatePassword() {
  var resultArray = [];
  var userArray = [];
 
- var numCharacter = prompt ("How many characters do you want between 8 and 128?");
- var uppercase = confirm ("Do you want uppercase in your password?");
- var lowercase = confirm ("Do you want lowercase in your password?");
+ var numCharacter = prompt ("How many characters do you want in your password? between 8 and 128");
+ var uppercase = confirm ("Do you want uppercase letters in your password?");
+ var lowercase = confirm ("Do you want lowercase letters in your password?");
  var numbers = confirm ("Do you want numbers in your passsword?");
- var special = confirm ("Do you want special character in your password?");
+ var special = confirm ("Do you want special characters in your password?");
 
 if (uppercase){
   resultArray = resultArray.concat(upperCaseArray);
@@ -34,7 +34,7 @@ if (special){
 console.log(resultArray)
 
 
-for (var i = 0; i < numCharacter.length; i++) {
+for (var i = 0; i < numCharacter; i++) {
 
   userArray.push (resultArray[Math.floor(Math.random() * resultArray.length)]);
 
