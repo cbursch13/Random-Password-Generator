@@ -6,10 +6,10 @@ For this homework assignment, I created my own random password generator using j
 
 ## Usage
 
-![Screenshot](assets/images/)
+![Screenshot](assets/images/PasswordGenerator.png)
 
 ## Links
-
+https://cbursch13.github.io/Random-Password-Generator/
 
 ## License
 
