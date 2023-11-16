@@ -1,18 +1,15 @@
 # Random Password Generator
 
 ## Description
-
 For this homework assignment, I created my own random password generator using javascript!
 
 ## Usage
-
-![Screenshot](assets/images/PasswordGenerator.png)
+![Screenshot](assets/Images/PasswordGenerator.png)
 
 ## Links
 https://cbursch13.github.io/Random-Password-Generator/
 
 ## License
-
 MIT License
 
 Copyright (c) [2023] [Cameron Bursch]
